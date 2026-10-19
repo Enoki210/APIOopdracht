@@ -37,6 +37,7 @@ body {
     margin: 30px;
     align-self: flex-end;
 }
+
 .picdoos {
     border: none;
     height: 250px;
@@ -44,6 +45,7 @@ body {
     justify-content: center;
     display: flex;
 }
+
 .zoekdoos {
     border: none;
     display: flex;

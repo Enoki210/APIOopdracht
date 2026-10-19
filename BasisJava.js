@@ -37,7 +37,6 @@ async function fetchData() {
 
         /*document.querySelector('.Abilities-box').innerHTML = data.abilities.map(item => item.ability.name).join('<br>');*/
 
-
         imgElement.src = pokemonSprite;
         imgElement.style.display = "block";
 
