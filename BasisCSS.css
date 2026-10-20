@@ -24,19 +24,18 @@ body {
     height: 100px;
 }
 
+.infobox {
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+}
+
 .naambox {
     border: 2px solid black;
     width: 397px;
     height: 390px;
     margin: 30px;
     align-self: flex-end;
-}
-
-.pijl {
-    border: 2px solid black;
-    width: 75px;
-    height: 60px;
-    gap: 100px;
 }
 
 .picdoos {
