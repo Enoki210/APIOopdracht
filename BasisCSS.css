@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
+    background-image: url("bomen.jpg");
 }
 
 .container {
@@ -47,7 +48,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    background-image: url("db4842cf0fe9103c5aa488d0ab60fab2.jpg");
+    background-image: url("achtergrondpokemon.jpg");
     width: 100%;
 }
 

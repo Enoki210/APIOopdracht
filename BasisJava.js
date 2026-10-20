@@ -1,3 +1,12 @@
+// window.addEventListener('load', function (){
+//
+//
+//
+// });
+
+
+let pokemonData = '';
+
 async function fetchData() {
     try {
         const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
@@ -8,6 +17,7 @@ async function fetchData() {
         }
 
         const data = await response.json();
+        pokemonData = data;
         const pokemonSprite = data.sprites.front_default;
         const imgElement = document.getElementById("pokemonSprite");
 
@@ -44,3 +54,17 @@ async function fetchData() {
         console.error(error);
     }
 }
+
+
+document.querySelector('#toggle').addEventListener('click', function() {
+    const imgElement = document.getElementById("pokemonSprite");
+
+    if (imgElement.src === pokemonData.sprites.front_default) {
+        let shiny = pokemonData.sprites.front_shiny;
+        imgElement.src = shiny;
+    } else {
+        imgElement.src = pokemonData.sprites.front_default;
+    }
+
+    imgElement.style.display = "block";
+});
