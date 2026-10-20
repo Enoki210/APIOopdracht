@@ -2,12 +2,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    background-image: url("bomen.jpg");
 }
 
 .container {
     display: flex;
-    border: 2px solid black;
+    border: 40px solid transparent;
+    border-radius: 60px;
+    background: darkseagreen;
+    border-image: url(Border.png) 30 round;
     width: 700px;
     height: 390px;
     margin: 30px;
@@ -40,6 +42,10 @@ body {
     flex-direction: column;
     background-image: url("foto groen.jpg");
     box-sizing: border-box;
+    border: 40px solid transparent;
+    border-radius: 60px;
+    padding: 15px;
+    border-image: url(Border.png) 30 round;
 }
 
 .picdoos {
