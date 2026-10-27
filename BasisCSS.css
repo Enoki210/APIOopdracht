@@ -32,48 +32,72 @@ body {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-ID {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-Weight {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-Length {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-Type {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-Shiny {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-Stats {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-Abilities {
     border: 2px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .infobox {
