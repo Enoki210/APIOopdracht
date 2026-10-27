@@ -148,6 +148,7 @@ body {
     height: 140px;
     background-image: url("foto groen.jpg");
     user-select: none;
+    border: 2px solid black;
 }
 
 .toggle {
@@ -177,4 +178,16 @@ body {
     padding: 30px;
     align-content: center;
     justify-content: center;
+}
+.error {
+    border: 20px solid black;
+    display: flex;
+    justify-content: center;
+}
+.zoekbalk {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
