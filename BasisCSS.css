@@ -28,10 +28,58 @@ body {
     height: 100px;
 }
 
+.box-Name {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-ID {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-Weight {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-Length {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-Type {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-Shiny {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-Stats {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-Abilities {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
 .infobox {
     border: 2px solid black;
     width: 550px;
-    height: 80px;
+    height: 100px;
 }
 
 .naambox {
@@ -87,7 +135,7 @@ body {
     display: flex;
     border: 2px solid black;
     width: 700px;
-    height: 100px;
+    height: 150px;
     margin-left: 30px;
     box-sizing: border-box;
     flex-wrap: wrap;
