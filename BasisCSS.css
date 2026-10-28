@@ -191,3 +191,11 @@ body {
     align-items: center;
     height: 100px;
 }
+@font-face {
+    font-family: "Pokemon X and Y";
+    src: url("Pokemon X and Y.ttf");
+}
+
+body {
+    font-family: "Pokemon X and Y";
+}
