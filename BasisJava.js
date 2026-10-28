@@ -44,7 +44,7 @@ async function fetchData() {
         document.querySelector('.box-Shiny').innerHTML = `Shiny: No`;
         document.querySelector('.box-Abilities').innerHTML = data.abilities.map(item => item.ability.name).join(`<br>`);
 
-        document.querySelector('.infobox').textContent = "";
+        document.querySelector('.error').textContent = "";
 
         imgElement.src = pokemonSprite;
         imgElement.style.display = "block";
@@ -52,7 +52,7 @@ async function fetchData() {
     } catch (error) {
         console.error(error);
 
-        document.querySelector('.infobox').textContent = error.message;
+        document.querySelector('.error').textContent = error.message;
 
         document.querySelector('.box-Name').innerHTML = "";
         document.querySelector('.box-ID').innerHTML = "";

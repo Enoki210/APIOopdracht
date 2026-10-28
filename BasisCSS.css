@@ -138,19 +138,6 @@ body {
     background-image: url("achtergrondpokemon.jpg");
     width: 100%;
 }
-
-.zoekdoos {
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 140px;
-    background-image: url("foto groen.jpg");
-    user-select: none;
-    border: 2px solid black;
-}
-
 .toggle {
     border: 2px solid black;
     height: 250px;
@@ -166,30 +153,23 @@ body {
     user-select: none;
 }
 
-.info {
+.zoekdoos {
     display: flex;
-    border: 2px solid black;
-    width: 700px;
-    height: 150px;
-    margin-left: 30px;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding: 30px;
-    align-content: center;
-    justify-content: center;
-}
-.error {
-    border: 20px solid black;
-    display: flex;
-    justify-content: center;
-}
-.zoekbalk {
-    border: 2px solid black;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    width: 100%;
+    height: 140px;
+    background-image: url("foto groen.jpg");
+    user-select: none;
+}
+
+.error {
+    border: none;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px;
 }
 @font-face {
     font-family: "Pokemon X and Y";
