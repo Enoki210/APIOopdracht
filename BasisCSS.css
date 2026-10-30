@@ -9,7 +9,9 @@ body {
     display: flex;
     border: 40px solid transparent;
     border-radius: 60px;
-    background: darkseagreen;
+    background-image: url("Achtergrondinfo.png");
+    background-size: 105% 105%;
+    background-position: bottom;
     border-image: url(Border.png) 30 round;
     width: 700px;
     height: 390px;
@@ -20,6 +22,7 @@ body {
     padding: 30px;
     align-content: center;
     justify-content: center;
+    image-rendering: pixelated;
 }
 
 .box {
@@ -29,89 +32,106 @@ body {
 }
 
 .box-Name {
-    border: 2px solid black;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
+    image-rendering: pixelated;
 }
 
 .box-ID {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 
 .box-Weight {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 
 .box-Length {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 
 .box-Type {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 
 .box-Shiny {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 
 .box-Stats {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 
 .box-Abilities {
-    border: 2px solid black;
+    background-image: url("Achtergrond.infobox.png");
+    background-size: 100% 100%;
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     user-select: none;
+    image-rendering: pixelated;
 }
 .info {
-    border: solid black 5px;
     width: 690px;
     height: 60px;
     margin-left: 30px;
+    border: #6c0d0d solid 5px;
+    border-radius: 5px;
 }
 
 .naambox {
@@ -126,6 +146,7 @@ body {
     border-radius: 60px;
     padding: 15px;
     border-image: url(Border.png) 30 round;
+    image-rendering: pixelated;
 }
 
 .picdoos {
@@ -153,6 +174,7 @@ body {
     background-image: url("Shiny.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    image-rendering: pixelated;
 }
 
 .zoekdoos {
