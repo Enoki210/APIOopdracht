@@ -89,6 +89,7 @@ body {
     align-items: center;
     user-select: none;
     image-rendering: pixelated;
+    text-align: center;
 }
 
 .box-Shiny {
@@ -240,4 +241,140 @@ body {
 
 body {
     font-family: "Pokemon X and Y";
+}
+
+@media (max-resolution:140dpi) and (min-resolution: 96dpi) {
+    .container {
+        width: 1000px;
+        height: 520px;
+        margin: 50px;
+    }
+
+    .box-Abilities, .box-ID, .box-Length, .box-Name, .box-Shiny, .box-Stats, .box-Type, .box-Weight {
+        width: 150px;
+        height: 150px;
+    }
+    .info {
+        width: 1000px;
+        height: 150px;
+        margin: 50px;
+    }
+    .naambox {
+        width: 600px;
+        height: 520px;
+        margin: 50px;
+    }
+    .toggle {
+        height: 380px;
+        width: 60px;
+    }
+    #toggle {
+        font-size: 2rem;
+    }
+    .info-item {
+        flex: 0 0 120px;
+    }
+    .info-item img {
+        flex: 100 100 100px;
+        width: 110px;
+    }
+    #pokemonName, * {
+        font-size: 1.2rem;
+    }
+}
+@media (max-height: 800px) and (max-width: 1024px) {
+    .container {
+        width: 550px;
+        height: 370px;
+        margin: 30px;
+        gap: 20px;
+    }
+
+    .box-Abilities, .box-ID, .box-Length, .box-Name, .box-Shiny, .box-Stats, .box-Type, .box-Weight {
+        width: 85px;
+        height: 85px;
+    }
+
+    .info {
+        width: 660px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .naambox {
+        width: 300px;
+        height: 370px;
+        margin: 30px;
+    }
+
+    .toggle {
+        height: 220px;
+        width: 30px;
+    }
+    #toggle {
+        font-size: 1.5rem;
+    }
+
+    .info-item {
+        flex: 0 0 70px;
+    }
+
+    .info-item img {
+        flex: 50 50 50px;
+        width: 50px;
+    }
+
+    #pokemonName, * {
+        font-size: 0.85rem;
+    }
+}
+@media (max-height: 400px) and (max-width: 800px) {
+    .container {
+        width: 480px;
+        height: 240px;
+        gap: 5px;
+        margin: 5px;
+    }
+
+    .box-Abilities, .box-ID, .box-Length, .box-Name, .box-Shiny, .box-Stats, .box-Type, .box-Weight {
+        width: 80px;
+        height: 60px;
+    }
+
+    .info {
+        margin: 10px;
+        width: 470px;
+        height: 100px;
+        align-self: flex-end;
+    }
+
+    .naambox {
+        width: 220px;
+        height: 240px;
+        margin: 5px;
+    }
+    .picdoos {
+        flex: 0 0 100px
+    }
+    .toggle {
+        height: 200px;
+        width: 30px;
+        margin: 10px;
+    }
+    #toggle {
+        font-size: 1.5rem;
+    }
+
+    .info-item {
+        flex: 0 0 70px;
+    }
+
+    .info-item img {
+        flex: 0 0 50px;
+        width: 60px;
+    }
+
+    #pokemonName, * {
+        font-size: 0.75rem;
+    }
 }
