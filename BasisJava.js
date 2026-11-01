@@ -79,3 +79,32 @@ document.querySelector('#toggle').addEventListener('click', function() {
         shinybox.innerHTML = `Shiny: No`;
     }
 });
+
+async function laadAllePokemon() {
+    const info = document.querySelector('.info');
+    try {
+        const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=100000");
+        const data = await response.json();
+
+        data.results.forEach(p => {
+            const id = p.url.split("/").filter(Boolean).pop();
+            const item = document.createElement("div");
+            item.className = "info-item";
+            item.innerHTML = `
+                <img loading="lazy" alt="${p.name}"
+                     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png"
+                     onerror="this.style.visibility='hidden'">
+                <span>${p.name}</span>`;
+            item.addEventListener("click", () => {
+                document.getElementById("pokemonName").value = p.name;
+                fetchData(p.name);
+            });
+            info.appendChild(item);
+        });
+    } catch (error) {
+        console.error(error);
+        info.textContent = "Kon Pokémon lijst niet laden";
+    }
+}
+
+laadAllePokemon();
