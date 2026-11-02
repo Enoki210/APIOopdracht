@@ -1,9 +1,8 @@
 Pokemon Zoeker
 
-Een interactieve webapplicatie waarmee gebruikers gedetailleerde informatie over verschillende Pokémon kunnen opzoeken, bekijken en doorzoeken. Dit project is gebouwd met HTML, CSS en JavaScript, en maakt gebruik van de officiële PokéAPI.
-
+Een website waarmee je informatie over verschillende Pokémon kunnen opzoeken. Dit project is gebouwd met HTML, CSS en JavaScript
  Gebruikte API
-Dit project maakt gebruik van de PokéAPI(https://pokeapi.co/)
+Dit project maakt gebruik van de PokéAPI (https://pokeapi.co/)
 
 Hoe werkt de website
 Pokémon Zoeken: Zoek op naam om direct de stats van een specifieke Pokémon te zien.
